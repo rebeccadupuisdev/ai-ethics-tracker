@@ -1,0 +1,10 @@
+[tool.ruff]
+# Enable Ruff's formatter
+line-length = 88  # Same as Black's default
+target-version = "py38"
+
+[tool.ruff.format]
+quote-style = "double"  # Same as Black's default
+indent-style = "space"
+skip-magic-trailing-comma = false
+line-ending = "auto" 
